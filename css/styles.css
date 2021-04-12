@@ -59,6 +59,10 @@ main {
     padding: 20px;
 }
 
+.headerImage {
+    padding: 4em 0 2em 0;
+}
+
 header {
     padding: 2rem;
 }
