@@ -1,6 +1,6 @@
 :root {
     --textColor: #000000;
-    --backgroundColor: #FFEADD;
+    --backgroundColor: #F6D3C5;
 }
 
 * {
@@ -30,12 +30,13 @@ video {
     border: 0;
 }
 
-html { 
+html {
     background: url(../images/bg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: var(--backgroundColor); 
   }
 
 body {
